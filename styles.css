@@ -1,0 +1,57 @@
+html { 
+    scroll-behavior: smooth; 
+  } 
+  
+  /*hero*/
+html {
+    max-width: 100%;
+    margin:0;
+  }
+  
+  .header{
+     padding: 3px;
+    position: relative;
+    z-index: 3;
+ }
+
+ body{
+  background-attachment: fixed;
+ }
+ .header-container{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+         }
+         
+.nav {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    display: inline-flex;
+    position:relative;
+    margin-right: 100px;
+    gap: 41px;
+}
+  .nav .nav-link {
+    display: block;
+    padding: 0.5rem 0;
+    position: relative;
+    font-size: 17px; 
+    font-weight: 700; 
+    word-wrap: break-word;
+    list-style-type: none;
+    text-decoration: none;
+    color:black;
+
+  }
+
+  .nav .nav-link:hover {
+    color:blue;
+    text-decoration: none;
+  }
+
+.navbar-menu ul{
+    list-style-type: none;
+    justify-content: space-between; 
+      
+}
