@@ -4,33 +4,120 @@
         <meta charset="UTF-8">
         <title>My Portfolio</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="phonemenu.css">
+        <script src="script.js"></script>
     </head>
     <body>
         <header class="header">
-               <div class="header-container">
-                   <div class="header-logo">
-                     <a href="#">
-                       <img src="images/logo.png" alt="logo" height="40">
-                     </a>
-                   </div>
-                   <nav class="navbar-menu">
-                     <ul class="nav">
-                       <li class="nav-item">
-                         <a href="#" class="nav-link">ABOUT ME</a>
-                       </li>
-                       <li class="nav-item">
-                         <a href="#" class="nav-link">SKILLS</a>
-                       </li>
-                       <li class="nav-item">
-                         <a href="#" class="nav-link">PROJECTS</a>
-                       </li>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link">CONTACT ME</a>
-                    </li>
-                     </ul>
-                   </nav>
+          <div class="header-container">
+              <div class="header-logo">
+                <a href="#">
+                  <img src="images/amos.png" alt="AMOS" height="60">
+                </a>
+              </div>
+              <nav class="navbar-menu">
+            <ul class="nav">
+                  <li class="nav-item"><a href="./#about" class="nav-link">ABOUT ME</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">SKILLS</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">PROJECTS</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">CONTACT ME</a></li>
+            </ul>
+              </nav>
+              </div>
+              <nav id="hamburger-nav">
+                <div class="header-logo">
+                  <a href="#">
+                    <img src="images/amos.png" alt="AMOS" height="60">
+                  </a>
+                </div>
+                <div class="hamburger-menu">
+                  <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">ABOUT ME</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">SKILLS</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">PROJECTS</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">CONTACT ME</a></li>
+                  </div>
+                </div>
+              </nav>
             </header>
 
         </body>
+
+        <main>
+          <!– Profile section –>
+                 <section id="profile">
+                <div class="profile-pic">
+                  <img src="images/amospic.jpeg" alt="Amos">
+                </div> 
+
+                <div class="section-text">
+                  <p class="sectiontext1">Hello, My Name is</p>
+                  <h1 class="title">Amos Mwoni</h1>
+                  <p class="sectiontext2">FrontEnd Developer</p>
+                  
+                
+                <div class="btn-container">
+                  <button class="btn btn-color-2" onclick="windows.open(cv.pdf)">
+                    Download CV
+                  </button>
+                  <button class="btn btn-color-1" onclick="location.href='./#contact'"> Contact me </button>
+                </div>
+                <div id="social-container">
+                  <img src="images/linkedin.png" alt="LinkedIn" class="icon" onclick="location.href='https://www.linkedin.com/in/amos-mwoni-712a2420b/'">
+                  <img src="images/github.png" alt="github" class="icon" onclick="location.href='https://github.com/Vegas90'">
+                  <img src="images/x.png" alt="X" class="icon" onclick="location.href='https://twitter.com/home'">
+          
+                  
+              </div>
+                </div>
+                </section> 
+                <section id="about">
+                  <p class="sectiontext1">Get to Know me more</p>
+                  <h1 class="title">About Me</h1>
+                  <div class="section-container">
+                    <div class="profile-pic">
+                      <img src="images/amospic2.jpeg" alt="profilepicture" class="about-pic">
+                    </div>
+                    <div class="about-details-container">
+                      <div class="about-containers">
+                        <div class="details-container">
+                          <img
+                            src="images/experience.png"
+                            alt="Experience icon"
+                            class="icon"
+                          />
+                          <h3>Experience</h3>
+                          <p>2+ years <br />Frontend Development</p>
+                        </div>
+                        <div class="details-container">
+                          <img
+                            src="images/education.png"
+                            alt="Education icon"
+                            class="icon"
+                          />
+                          <h3>Education</h3>
+                          <p>B.Sc. Bachelors Degree  in IT</p>
+                        </div>
+                      </div>
+                      <div class="text-container">
+                        <p>
+                          Hey there, I'm Amos Mwoni, a frontend developer with one year of experience—enough time to know my way around HTML, CSS, JavaScript, and even dabble in Python. I'm like a web wizard in the making, conjuring up pixel-perfect designs, sprinkling interactive magic, and turning your ideas into digital reality. I'm also on a never-ending quest for knowledge because, let's face it, the internet evolves faster than a superhero's costume change. So, whether you've got a wild web adventure or a mind-bending project in mind, I'm here to code, create, and maybe crack a few web-related puns along the way. Let's make the internet a more interesting place, one laugh and one line of code at a time!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    src="images/arrow.png"
+                    alt="Arrow icon"
+                    class="icon arrow"
+                    onclick="location.href='./#experience'"
+                  />
+                </section>
+
+        </main>
         </html>
