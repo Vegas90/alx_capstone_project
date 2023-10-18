@@ -99,12 +99,12 @@
     gap: 0.5rem;
     text-align: center;
   }
-  .section__pic-container {
+  .profile-pic {
     width: auto;
     height: 46vw;
     justify-content: center;
   }
-  .section__text__p2 {
+  .sectiontext2 {
     font-size: 1.25rem;
   }
   .title {
