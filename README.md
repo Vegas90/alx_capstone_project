@@ -5,6 +5,7 @@ Basically, my portfolio website is a place to show off my work, abilities, and e
 
 Features and Functionality 
 Home Page - Welcome to the website 
+Skills- This encompasses the  languages that i am profficient in 
 Projects Gallery - A collection of my main projects with descriptions
  Resume - Detailed information on my experience and skills 
  Contact Form - A convenient way for visitors to get in touch with me 
