@@ -10,7 +10,7 @@
       padding-left:51px;
     }
     .profile-pic img:hover{
-    scale: 0.95;
+    scale: initial;
     }
     
     .profilepic2 img{
@@ -40,8 +40,18 @@ scale:1.5;
   }
 .about-containers p{
   scale:1.5;
-  
   }
+
+.section-text p{
+scale:1.5;
+}
+.section-text p:hover{
+  scale:0.1;
+}
+
+#about .details-container img{
+padding-left:100px;
+}
 }
 
 
@@ -79,6 +89,10 @@ scale:1.5;
   .about-containers {
     margin-top: 0;
   }
+
+.btn{
+  font-size: 1.5rem;
+}
 }
 
 @media screen and (max-width: 600px) {
