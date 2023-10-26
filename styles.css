@@ -513,3 +513,5 @@ form .btn2{
 }
 
 /*SECTION*/
+
+/*Pixels are an absolute unit, so when you set the font size to 24 pixels, it's going to be 24 pixels. Rems, on the other hand, are relative units that are based on the document's font-size. The document's default font size is 16 pixels, so 1.5rems x 16px is the equivalent of 24 pixels*/

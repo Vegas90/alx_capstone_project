@@ -22,8 +22,29 @@
       scale:1;
     }
 
+.sectiontext1{
+font-size:30px;
+}   
+
+.about-containers h3{
+scale:1.5;
 
 }
+
+.section-text p{
+scale:1.5;
+}
+
+.section-text h1{
+  scale:1.5;
+  }
+.about-containers p{
+  scale:1.5;
+  
+  }
+}
+
+
 @media screen and (max-width: 1200px) {
 
   #desktop-nav {
